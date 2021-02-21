@@ -5,3 +5,24 @@ html, body, #cesiumContainer {
 	padding: 0;
 	overflow: hidden;
 }
+
+#toolbar {
+	position: absolute;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.custom-modal {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	z-index: 10;
+}
+
+.visible {
+	visibility: visible;
+}
+
+.unvisible {
+	visibility: hidden;
+}

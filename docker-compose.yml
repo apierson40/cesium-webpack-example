@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  cesium:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cesium-webpack
+    ports:
+      - "8080:8080"
